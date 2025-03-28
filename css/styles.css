@@ -319,10 +319,6 @@ button {
 
 }
 
-.soc-nav {
-
-    
-}
 
 .social-links .link {
     display: flex;
@@ -332,13 +328,13 @@ button {
     height: 40px;
     border-radius: 50%;
     background-color: #4D5AE5;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-links .link:hover,
 .social-links .link:focus {
     background-color: #404BBF;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .name {
