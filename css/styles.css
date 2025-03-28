@@ -397,6 +397,32 @@ button {
     color: #2e2f42;
 }
 
+.overlay {
+    padding: 8px;
+    background-color: #4D5AE5;
+    color: #F4F4FD;
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    padding: 40px 32px 164px;
+    width: 360px;
+    height: 300px;
+    transform: translateY(-100%);
+    transition: transform 250ms ease-in-out;
+}
+
+.screen {
+    position: relative;
+    overflow: hidden;
+}
+
+.screen:hover {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+.screen:hover .overlay {
+    transform: translateY(0);
+    
+}
+
 .text-footer {
     font-size: 16px;
     line-height: 1.5;
