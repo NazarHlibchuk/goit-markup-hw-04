@@ -267,6 +267,10 @@ button {
     margin-bottom: 8px;
 }
 
+.benefits-list {
+    justify-content: center;
+}
+
 .item-list {
     flex-basis: calc((100% - 72px) / 4);
     
