@@ -305,7 +305,7 @@ button {
 }
     
 
-.social-links {
+.social-links.ion {
     margin-left: 16px;
     justify-content: center;
     display: flex;
@@ -320,7 +320,7 @@ button {
 }
 
 
-.social-links .link {
+.link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -328,6 +328,7 @@ button {
     height: 40px;
     border-radius: 50%;
     background-color: #4D5AE5;
+
 }
 
 .social-links .link:hover,
@@ -474,11 +475,12 @@ button {
     height: 40px;
 }
 
-.social-links {
+.two {
     display: flex;
     gap: 16px;
     justify-content: center;
     align-items: center;
+
     
 }
 
