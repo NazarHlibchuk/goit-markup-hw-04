@@ -466,6 +466,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
+    margin-bottom: 16ox;
 }
 
 .soc-nav {
@@ -476,7 +477,13 @@ button {
 .social-links {
     display: flex;
     gap: 16px;
+    justify-content: center;
+    align-items: center;
     
 }
 
+.social-links .foot-link:hover,
+.social-links .foot-link:focus {
+    background-color: #31d0aa;
+}
 
