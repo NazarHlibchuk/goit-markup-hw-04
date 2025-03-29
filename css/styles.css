@@ -445,9 +445,38 @@ button {
     padding: 100px 0;
 }
 
-.footer-icon {
-   box-sizing: content-box;
+/*new*/
+.footer-item{
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-left{
+    max-width: 264px;
+    margin-right: 120px;
+}
+
+.footer-right {
+    max-width: 208px;
+}
+
+.social {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.soc-nav {
+    width: 40px;
+    height: 40px;
+}
+
+.social-links {
+    display: flex;
+    gap: 16px;
+    
 }
 
 
- 
